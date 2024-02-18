@@ -131,7 +131,9 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DeneyimController.cs" />
     <Compile Include="Controllers\EgitimController.cs" />
-    <Compile Include="Controllers\HakkımdaController.cs" />
+    <Compile Include="Controllers\HakkimdaController.cs" />
+    <Compile Include="Controllers\HobiController.cs" />
+    <Compile Include="Controllers\iletisimController.cs" />
     <Compile Include="Controllers\SertifikaController.cs" />
     <Compile Include="Controllers\YetenekController.cs" />
     <Compile Include="Global.asax.cs">
@@ -2356,7 +2358,6 @@
     <Content Include="Views\Default\Sertifikalarim.cshtml" />
     <Content Include="Views\Default\Iletisim.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
-    <Content Include="Views\Hakkımda\Index.cshtml" />
     <Content Include="Views\Deneyim\Index.cshtml" />
     <Content Include="Views\Deneyim\DeneyimEkle.cshtml" />
     <Content Include="Views\Deneyim\DeneyimGetir.cshtml" />
@@ -2369,6 +2370,9 @@
     <Content Include="Views\Sertifika\Index.cshtml" />
     <Content Include="Views\Sertifika\SertifikaEkle.cshtml" />
     <Content Include="Views\Sertifika\SertifikaDuzenle.cshtml" />
+    <Content Include="Views\iletisim\Index.cshtml" />
+    <Content Include="Views\Hobi\Index.cshtml" />
+    <Content Include="Views\Hakkimda\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
