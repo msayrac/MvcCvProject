@@ -23,6 +23,20 @@ namespace MvcCvProject.Controllers
 			return View(degerler);
 		}
 
+
+		public PartialViewResult SosyalMedya()
+		{
+
+			var sosyalMedya = db.TblSosyalMedya.ToList();
+
+			return PartialView(sosyalMedya);
+		}
+
+
+
+
+
+
 		public PartialViewResult Deneyim()
 		{
 

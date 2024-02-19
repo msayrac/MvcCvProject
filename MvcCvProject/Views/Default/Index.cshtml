@@ -63,12 +63,10 @@
                         <a href="@x.Mail">@x.Mail</a>
                     </div>
                     <p class="lead mb-5">@x.Aciklama <a target="_blank" href="https://github.com/msayrac">GitHub</a></p>
-                    <div class="social-icons">
-                        <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/muhammedsayrac/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" target="_blank" href="https://github.com/msayrac"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                    </div>
+
+                    @Html.Action("SosyalMedya")
+
+
                 </div>
             </section>
         }

@@ -1,0 +1,16 @@
+﻿@using MvcCvProject.Models.Entity
+@model List<TblSosyalMedya>
+
+
+<div class="social-icons">
+
+    @foreach (var item in Model)
+    {
+        <a class="social-icon" target="_blank" href="@item.Link"><i class="@item.ikon"></i></a>
+    }
+
+
+
+
+
+</div>

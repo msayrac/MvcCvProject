@@ -175,6 +175,9 @@
     <Compile Include="Models\Entity\TblIletisim.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Entity\TblSosyalMedya.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Entity\TblYeteneklerim.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -2373,6 +2376,7 @@
     <Content Include="Views\iletisim\Index.cshtml" />
     <Content Include="Views\Hobi\Index.cshtml" />
     <Content Include="Views\Hakkimda\Index.cshtml" />
+    <Content Include="Views\Default\SosyalMedya.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
