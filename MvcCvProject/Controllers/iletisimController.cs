@@ -9,6 +9,8 @@ using System.Web.Mvc;
 
 namespace MvcCvProject.Controllers
 {
+	[Authorize]
+
 	public class iletisimController : Controller
 	{
 		// GET: iletisim

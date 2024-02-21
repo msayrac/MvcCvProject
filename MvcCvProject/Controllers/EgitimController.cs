@@ -12,7 +12,6 @@ namespace MvcCvProject.Controllers
 	{
 		// GET: Egitim
 
-
 		EgitimRepository repo = new EgitimRepository();
 
 		public ActionResult Index()

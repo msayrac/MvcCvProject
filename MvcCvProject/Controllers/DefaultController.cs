@@ -5,11 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using MvcCvProject.Models.Entity;
 
-
-
-
 namespace MvcCvProject.Controllers
 {
+	[AllowAnonymous]
 	public class DefaultController : Controller
 	{
 		// GET: Default
@@ -27,7 +25,7 @@ namespace MvcCvProject.Controllers
 		public PartialViewResult SosyalMedya()
 		{
 
-			var sosyalMedya = db.TblSosyalMedya.Where(x=>x.Durum==true).ToList();
+			var sosyalMedya = db.TblSosyalMedya.Where(x => x.Durum == true).ToList();
 
 			return PartialView(sosyalMedya);
 		}
