@@ -8,12 +8,9 @@ using MvcCvProject.Repositories;
 
 namespace MvcCvProject.Controllers
 {
-	[AllowAnonymous]
 	public class AdminController : Controller
 	{
 		// GET: Admin
-
-
 		GenericRepository<TblAdmin> repo = new GenericRepository<TblAdmin>();
 		public ActionResult Index()
 		{
@@ -21,7 +18,6 @@ namespace MvcCvProject.Controllers
 
 			return View(liste);
 		}
-
 
 
 		[HttpGet]
